@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    width: 40px;
+    background-color: #02aa44;
+    /*  */
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+  }
+  .btn-purchase {
+    display: none;
+  }
+  .show-case .left-side {
+    display: none;
+  }
+  .show-case-title {
+    font-size: 3.2rem;
+  }
+  .features {
+    flex-direction: column;
+  }
+
+  /* .achievment{
+    width: 100%;
+   height: 20rem;
+  } */
+  .achievment-list {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .achievmets-item {
+    margin: 20px;
+  }
+}
